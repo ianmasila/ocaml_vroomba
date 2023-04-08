@@ -1,0 +1,15 @@
+(library
+ (name vroomba)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test ppx_expect))
+ (wrapped false)
+ (libraries core batteries graphics ysc2229)
+ (synopsis "Vroomba Libraries"))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A)))
+ (release
+  (inline_tests enabled)))

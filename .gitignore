@@ -1,0 +1,56 @@
+# -----------------------------------------------------------------------------
+#  OCaml
+# -----------------------------------------------------------------------------
+
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# ocamlbuild working directory
+_build
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+bin
+*.install
+.merlin
+*.*--
+
+# -----------------------------------------------------------------------------
+#  Emacs-generated files
+# -----------------------------------------------------------------------------
+
+*~
+\#*\#
+_region_.*
+cv/*.out
+*.rel
+*.log
+*.blg
+*.aux
+*.bbl
+*.out.ps
+.#*
+*.dot
+
+.DS_Store
+
+# -----------------------------------------------------------------------------
+#  VSCode-generated
+# -----------------------------------------------------------------------------
+.vscode
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history

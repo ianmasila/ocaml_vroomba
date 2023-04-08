@@ -1,0 +1,17 @@
+opam-version: "2.0"
+version: "1.0"
+license: "MIT"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+install: [ make ]
+depends: [ ]
+
+description: "Vroomba, the Magical Cleaning Robot"
+
+tags: [
+  "category:Computer Science/Education/Basic Algorithms and Data Structures"
+  "keyword:data structures"
+  "keyword:algorithms"
+]

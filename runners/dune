@@ -1,0 +1,13 @@
+(executables
+ (names vroomba)
+ (public_names vroomba)
+ (modules vroomba)
+ (libraries vroomba ysc2229 core batteries graphics)
+ (package vroomba))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A)))
+ (release
+  (inline_tests enabled)))

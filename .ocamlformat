@@ -1,0 +1,10 @@
+version = 0.21.0
+profile = janestreet
+
+break-separators = after
+dock-collection-brackets = true
+let-binding-spacing = compact
+module-item-spacing = sparse
+parens-tuple = always
+space-around-arrays = false
+space-around-lists = false
